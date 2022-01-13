@@ -46,3 +46,27 @@ button {
 button:hover{
   cursor: pointer;
 }
+header nav {
+  margin: 7px 0;
+  font-family: 'Lato', sans-serif;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+header nav ul li a {
+  padding: 30px 35px;
+  font-size: 1.55vw;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+  background-size: 50px;
+}
+header nav:hover {
+  cursor: pointer;
+  color: white;
+}
+
